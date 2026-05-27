@@ -1,0 +1,20 @@
+{
+  "orange": {
+    "color": "#433122",
+    "bgcolor": "#654822",
+    "groupcolor": "#c87137",
+    "label": "big orange"
+  },
+
+  "pink": {
+    "color": "#3b2233",
+    "bgcolor": "#5c3350",
+    "groupcolor": "#c05a9e"
+  },
+  "demo color": {
+    "color": "#FF0000",
+    "bgcolor": "#46FFA3",
+    "groupcolor": "#A30052"
+  }
+
+}
