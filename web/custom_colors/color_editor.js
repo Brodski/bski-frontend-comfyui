@@ -1,4 +1,8 @@
-import { app } from "../../scripts/app.js";
+import { app } from "/scripts/app.js";
+
+let dick = import.meta.url
+console.log("color_editor.js loaded from:", dick);
+
 
 app.registerExtension({
   name: "bskiFrontend.nodeColorsEditor",
@@ -38,6 +42,15 @@ app.registerExtension({
         const wrapper = document.createElement("div");
         wrapper.style.cssText = "width:100%;padding:4px 0";
 
+        const filePath = document.createElement("div");
+        filePath.textContent = "📄 File @ ComfyUI/custom_nodes/bski-frontend/web/custom_colors/node_colors.json";
+        Object.assign(filePath.style, {
+          // fontSize: "11px",
+          opacity: "0.8",
+          marginBottom: "6px",
+          fontFamily: "monospace",
+        });
+
         const textarea = document.createElement("textarea");
         textarea.placeholder = "Loading…";
         Object.assign(textarea.style, {
@@ -64,7 +77,7 @@ app.registerExtension({
         status.style.fontSize = "12px";
 
         controls.append(btn, status);
-        wrapper.append(textarea, controls);
+        wrapper.append(filePath, textarea, controls);
 
         // Load current JSON from server
         fetch("/bski/node_colors")

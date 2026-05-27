@@ -1,5 +1,8 @@
 .vscode/
 
+# User-local color config — copy node_colors.json.example to create yours
+web/custom_colors/node_colors.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

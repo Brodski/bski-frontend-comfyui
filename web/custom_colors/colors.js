@@ -1,13 +1,11 @@
-import { app } from "../../scripts/app.js";
+import { app } from "/scripts/app.js";
 
 app.registerExtension({
   name: "bskiFrontend.nodeColors",
   async setup() {
     let entries;
     try {
-      const url = new URL("./node_colors.json", import.meta.url);
-      url.searchParams.set("t", Date.now());
-      const res = await fetch(url);
+      const res = await fetch(`/bski/node_colors?t=${Date.now()}`);
       if (!res.ok) return;
       entries = await res.json();
     } catch {

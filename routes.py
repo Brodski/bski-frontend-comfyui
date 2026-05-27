@@ -3,7 +3,7 @@ import json
 from aiohttp import web
 from server import PromptServer
 
-_JSON_PATH = os.path.join(os.path.dirname(__file__), "web", "node_colors.json")
+_JSON_PATH = os.path.join(os.path.dirname(__file__), "web", "custom_colors", "node_colors.json")
 
 @PromptServer.instance.routes.get("/bski/node_colors")
 async def get_node_colors(request):
