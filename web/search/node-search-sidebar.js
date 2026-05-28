@@ -255,8 +255,9 @@ function buildSidebarUI() {
     };
   }
 
-  // ─── Expose a refresh handle so the tab renderer can call it ───────────
+  // ─── Expose handles so the tab renderer can call them ──────────────────
   root.__refresh = render;
+  root.__focusSearch = () => searchInput.focus();
 
   return root;
 }
@@ -287,12 +288,14 @@ app.registerExtension({
       type:    "custom",
       render(el) {
         console.log("%c[NodeSearchSidebar] Sidebar panel rendered (tab opened)", "color: #4ade80;");
-        
+
         el.style.height   = "100%";
         el.style.overflow = "hidden";
         el.appendChild(sidebarEl);
-        // Refresh when the panel becomes visible
+        // Refresh list and focus the search input when the panel becomes visible
         sidebarEl.__refresh?.();
+        // Small delay so the element is visible/measured before focus
+        setTimeout(() => sidebarEl.__focusSearch?.(), 50);
       },
     });
     
