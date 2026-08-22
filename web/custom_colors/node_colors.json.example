@@ -16,5 +16,123 @@
     "color": "#FF0000",
     "bgcolor": "#46FFA3",
     "groupcolor": "#A30052"
+  },
+
+
+
+
+
+  "purple lavender": {
+    "color": "#470047",
+    "bgcolor": "#A300A3",
+    "groupcolor": "#D2AFFF"
+  },
+
+  "purple": {
+    "color": "#17125A",
+    "bgcolor": "#17125A",
+    "groupcolor": "#17125A"
+  },
+  "blue": {
+    "color": "#1F0443",
+    "bgcolor": "#1F0443",
+    "groupcolor": "#1F0443"
+  },
+  "torquise": {
+    "color": "#244748",
+    "bgcolor": "#244748",
+    "groupcolor": "#244748"
+  },
+  "pink hot": {
+    "color": "#712278",
+    "bgcolor": "#712278",
+    "groupcolor": "#712278"
+  },
+  "blue light": {
+    "color": "#364590",
+    "bgcolor": "#364590",
+    "groupcolor": "#364590"
+  },
+  "gold": {
+    "color": "#5D421C",
+    "bgcolor": "#5D421C",
+    "groupcolor": "#5D421C"
+  },
+  "green dark": {
+    "color": "#15260E",
+    "bgcolor": "#15260E",
+    "groupcolor": "#15260E"
+  },
+  "green light": {
+    "color": "#456442",
+    "bgcolor": "#456442",
+    "groupcolor": "#456442"
+  },
+  "grey": {
+    "color": "#5C5C5C",
+    "bgcolor": "#5C5C5C",
+    "groupcolor": "#5C5C5C"
+  },
+  "red dark": {
+    "color": "#770015",
+    "bgcolor": "#770015",
+    "groupcolor": "#770015"
+  },
+  "teal neon": {
+    "color": "#8CFFFE",
+    "bgcolor": "#8CFFFE",
+    "groupcolor": "#8CFFFE"
+  },
+  "purple lavender": {
+    "color": "#D2AFFF",
+    "bgcolor": "#D2AFFF",
+    "groupcolor": "#D2AFFF"
+  },
+  "blue ocean": {
+    "color": "#3F789E",
+    "bgcolor": "#3F789E",
+    "groupcolor": "#3F789E"
+  },
+  "green off": {
+    "color": "#86C06B",
+    "bgcolor": "#86C06B",
+    "groupcolor": "#86C06B"
+  },
+  "blue neon-ish": {
+    "color": "#0099FF",
+    "bgcolor": "#0099FF",
+    "groupcolor": "#0099FF"
+  },
+  "pink magenta": {
+    "color": "#C05A9E",
+    "bgcolor": "#C05A9E",
+    "groupcolor": "#C05A9E"
+  },
+  "yellow neon": {
+    "color": "#ECD35F",
+    "bgcolor": "#ECD35F",
+    "groupcolor": "#ECD35F"
   }
+  
+
+
+  #17125A purple
+  #1F0443 blue 
+  #244748 torquise
+  #712278 pink hot
+  #364590 blue light
+  #5D421C gold
+  #15260E green dark
+  #456442 green light
+  #5C5C5C grey
+
+
+  #770015 red dark
+  #8CFFFE teal neon
+  #D2AFFF purple lavender
+  #3F789E blue ocean
+  #86C06B green off
+  #0099FF blue neon-ish
+  #C05A9E pink magenta
+  #ECD35F yellow neon 
 }

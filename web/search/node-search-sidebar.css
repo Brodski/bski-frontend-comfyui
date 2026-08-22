@@ -110,7 +110,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 6px;
+  padding: 3px 0px;
   margin-bottom: 2px;
   border-radius: 5px;
   cursor: pointer;
@@ -125,10 +125,10 @@
 
 .nss-node-id {
   flex-shrink: 0;
-  font-size: 11px;
+  font-size: 16px;
   font-family: monospace;
   color: var(--p-primary-color, #4a9eff);
-  opacity: 0.75;
+  opacity: 1;
   min-width: 30px;
 }
 
@@ -137,7 +137,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /* ── Eye (toggle) button ────────────────────────────────────── */
