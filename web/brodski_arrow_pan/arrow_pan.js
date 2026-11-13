@@ -10,8 +10,11 @@ app.registerExtension({
       const tag = e.target?.localName
       if (tag === "input" || tag === "textarea") return
 
-      const { ds, graph } = app.canvas
+      const { ds, graph, selected_nodes } = app.canvas
       if (!ds || !graph) return
+
+      // Let a selected Preview Image node use arrow keys (e.g. cycling images)
+      if (Object.values(selected_nodes ?? {}).some((n) => n.type === "PreviewImage")) return
 
       const step = PAN_STEP / ds.scale
 
